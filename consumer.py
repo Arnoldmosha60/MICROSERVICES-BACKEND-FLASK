@@ -1,4 +1,4 @@
-import pika, json
+import pika, json # type: ignore
 from main import Product, db, app  
 from sqlalchemy.orm import Session  
 

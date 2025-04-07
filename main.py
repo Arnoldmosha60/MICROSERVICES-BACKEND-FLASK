@@ -1,6 +1,6 @@
 from flask import Flask, jsonify, abort
-from flask_sqlalchemy import SQLAlchemy
-from flask_cors import CORS
+from flask_sqlalchemy import SQLAlchemy # type: ignore
+from flask_cors import CORS # type: ignore
 from sqlalchemy import UniqueConstraint
 from dataclasses import dataclass
 import requests

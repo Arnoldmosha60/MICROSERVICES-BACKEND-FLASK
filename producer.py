@@ -1,6 +1,6 @@
 # amqps://zjqmyjmm:f1m1faiP_38J8j7JoOFGKQs-R2wmkKnW@collie.lmq.cloudamqp.com/zjqmyjmm
 
-import pika, json
+import pika, json # type: ignore
 
 params = pika.URLParameters('amqps://zjqmyjmm:f1m1faiP_38J8j7JoOFGKQs-R2wmkKnW@collie.lmq.cloudamqp.com/zjqmyjmm')
 

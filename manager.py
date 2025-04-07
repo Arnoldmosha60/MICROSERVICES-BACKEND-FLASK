@@ -1,4 +1,4 @@
-from flask_migrate import Migrate
+from flask_migrate import Migrate # type: ignore
 from main import app, db 
 
 migrate = Migrate(app, db)
